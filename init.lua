@@ -1,4 +1,4 @@
--- More trees!  2013-04-07
+-- More trees!
 --
 -- This mod adds more types of trees to the game
 --
@@ -326,4 +326,4 @@ function moretrees.grow_fir_snow(pos)
 	minetest.spawn_tree(pos,moretrees.fir_model)
 end
 
-print("[Moretrees] Loaded (2013-02-11)")
+print("[Moretrees] Loaded")
