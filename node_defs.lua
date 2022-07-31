@@ -606,9 +606,8 @@ end
 -- To get Moretrees to generate its own jungle trees among the default mapgen
 -- we need our own copy of that node, which moretrees will match against.
 
-local jungle_tree = table.copy(minetest.registered_nodes["default:jungletree"])
-jungle_tree.drop = "default:jungletree"
-minetest.register_node("moretrees:jungletree_trunk", jungle_tree)
+
+minetest.register_alias_force("moretrees:jungletree_trunk", "default:jungle_tree")
 
 default.register_leafdecay({
 	trunks = { "default:jungletree", "moretrees:jungletree_trunk" },

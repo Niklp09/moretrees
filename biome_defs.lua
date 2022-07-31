@@ -147,7 +147,7 @@ moretrees.jungletree_biome = {
 		"woodsoils:grass_with_leaves_1",
 		"woodsoils:grass_with_leaves_2"
 	},
-	avoid_nodes = {"moretrees:jungletree_trunk"},
+	avoid_nodes = {"default:jungletree"},
 	max_count = 12,
 	avoid_radius = 3,
 	rarity = 85,
